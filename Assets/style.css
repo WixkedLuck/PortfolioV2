@@ -57,10 +57,11 @@ a:hover {
 }
 
 #Subtitle {
+    
+    margin: auto;
     width: fit-content;
-    margin-left: 40%;
     border-right: solid gray 3px;
-    animation: blink-caret .75s step-end infinite;
+    animation: blink-caret .75s  infinite;
 }
 
 @keyframes blink-caret {
@@ -99,7 +100,7 @@ a {
 
 
 .tools {
-    padding-top: 36vh;
+    padding-top: 32vh;
     text-align: center;
 }
 
@@ -113,9 +114,11 @@ a {
     color: var(--Text);
 }
 
+
 .ProjectHdr {
     color: var(--Text);
     text-align: center;
+    padding-top: 100px;
     padding-bottom: 3px;
     border-bottom: #969696 solid 4px;
     box-shadow: rgba(0, 0, 0, 0.35) 20px 20px 15px;
@@ -136,4 +139,12 @@ a {
 }
 #CardHdr{
     text-align:right;
+}
+
+
+@media only screen and (max-width: 768px)  {
+
+ .tools{
+    padding-top: 30vh;
+ } 
 }
