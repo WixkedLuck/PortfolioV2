@@ -123,13 +123,17 @@ a {
 }
 
 
-img {
+.icon {
     width: 60px;
     height: auto;
 }
-
+.Wire{
+    width: 800px !important;
+}
 .footer a{
     width: 100%;
     justify-content: space-evenly;
 }
-
+#CardHdr{
+    text-align:right;
+}
