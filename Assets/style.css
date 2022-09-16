@@ -37,23 +37,23 @@ a:hover {
     color: gray;
    text-decoration:underline;
 }
-
-.back {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    -o-filter: blur(3px);
-    filter: blur(3px);
+.Photo{
+    background-image: url('./images/program.jpg');
+   
 }
+
 
 .Name {
     text-align: center;
+    width: auto;
     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
     padding-top: 40vh;
     color: var(--Text);
     font-family: 'Silkscreen', cursive;
     font-family: 'Taviraj', serif;
+    
+    
+   
 }
 
 #Subtitle {
@@ -102,6 +102,7 @@ a {
 .tools {
     padding-top: 32vh;
     text-align: center;
+   
 }
 
 .ProSection {
@@ -149,3 +150,4 @@ a {
     padding-top: 30vh;
  } 
 }
+
